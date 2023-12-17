@@ -25,7 +25,7 @@ else:
     # Set page config with a favicon
     st.set_page_config(page_title='Gemini chat by Prateek', page_icon='💟')
 
-    st.title("AI Chat with Gemini")
+    st.title("AI chat with Gemini")
     st.markdown("The app supports chat with the new Gemini pro and Gemini pro vision model. Built by Prateek Keshari. [Star on Github](https://github.com/prateekkeshari/gemini) or follow on [Twitter](https://twitter.com/prkeshari) or [Threads](https://threads.net/prateekkeshari).")
 
     new_use_image_chat = st.checkbox("Use vision 🖼️")
