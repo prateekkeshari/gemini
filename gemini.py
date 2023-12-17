@@ -25,7 +25,7 @@ else:
     st.title("AI Chat with Gemini Pro and Gemini Pro Vision")
     st.markdown("Built by Prateek Keshari. Follow on [Twitter](https://twitter.com/prkeshari).")
 
-    new_use_image_chat = st.checkbox("Use Image-Chat Model 🖼️✍️")
+    new_use_image_chat = st.checkbox("Use vision 🖼️✍️")
 
     if 'use_image_chat' in st.session_state and st.session_state['use_image_chat'] != new_use_image_chat:
         switch_message = "Switched to vision model" if new_use_image_chat else "Switched to text model"
