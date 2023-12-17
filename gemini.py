@@ -22,8 +22,11 @@ if api_key is None or api_key == "":
 else:
     genai.configure(api_key=api_key)
 
-    st.title("AI Chat with Gemini Pro and Gemini Pro Vision")
-    st.markdown("Built by Prateek Keshari. Follow on [Twitter](https://twitter.com/prkeshari).")
+    # Set page config with a favicon
+    st.set_page_config(page_title='Gemini chat by Prateek', page_icon='💟')
+
+    st.title("AI Chat with Gemini")
+    st.markdown("The app supports chat with the new Gemini pro and Gemini pro vision model. [Star on Github](https://github.com/prateekkeshari/gemini). Built by Prateek Keshari. Follow on [Twitter](https://twitter.com/prkeshari) or Threads.")
 
     new_use_image_chat = st.checkbox("Use vision 🖼️")
 
