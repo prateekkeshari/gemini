@@ -16,7 +16,7 @@
 1. Install the required Python packages:
 ```pip install streamlit google-generativeai pillow python-dotenv```
 
-2. Create a .env file in the same directory as `gemini.py` and add your Gemini API key:
+2. Create a .env file in the same directory as `gemini.py` or rename the .env-example to just .env and add your Gemini API key:
 ```GEMINI_API_KEY=your_api_key_here```
 
 ## Local usage
